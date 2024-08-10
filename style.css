@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+body h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#memory-container {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(5, 150px);
+    gap: 10px;
+}
+#memory-container div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
